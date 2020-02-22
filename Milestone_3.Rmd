@@ -1,0 +1,29 @@
+---
+title: "Milestone 3"
+author: "Feven Yohannes"
+date: "February 21, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(readr)
+library(dplyr)
+library(tidyverse)
+```
+
+```{r}
+data1 <- read.csv("results_acled_aer (1).do")
+```
+
+Overview of the Paper:
+
+Stelios Michalopoulos and Elias Papaioannou's paper, "The Long Run Effects of the Scramble for Africa", examines the consequences of the Berlin Conference on present day conditions in Africa. They argue that the West's involvement in shaping national boundaries in Africa, led to ethnic partioning, which in turn has prevented politcal cooperaion, stability, and has led to violence. They specifically analyze the effects of split groups and how it has led to the de-stablization of neighboring countries, ethnic wars, increased civil conflict, and economic statuses. Furthermore, they discover that there is no link between ethnic partioning and riots and protests, as that is much more correlated with an urban environment. Some other current day aspects that the authors discover is that partioned ethnicities are more likely to experience politcal discrimination. 
+
+Url of my rep: https://github.com/fyohannes/milestone_3_rep
+
+
+Note on Milestone 3:
+I made two repos for this milestone. This html includes my summary of the paper and the other repo includes comments of stata code. Because I still can't open the files, I copy and pasted the code you had sent me in R and commented on the in similiar fashion to psets.
+
